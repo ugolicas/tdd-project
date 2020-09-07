@@ -1,0 +1,2 @@
+Teste de unidade: teste de pequenos trechos de código (funções / métodos). Pode ser considerado como teste funcional (caixa branca)
+Teste funcional é do ponto de vista do usuario, teste de unidade é do ponto de vista do programador.
