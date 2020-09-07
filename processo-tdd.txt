@@ -1,0 +1,3 @@
+Inicialmente escreve-se um teste, verifica-se se este passou se não, escreva um codigo minimo ate passar.
+Ao passar verifica-se se é necessario refatorar a aplicação caso seja necessario faça isso mantendo os testes 
+funcionando.
