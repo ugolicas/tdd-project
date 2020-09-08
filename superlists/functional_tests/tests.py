@@ -41,8 +41,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')  
         inputbox.send_keys('Estudar testes de unidade')
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
-
+        
         # A página atualiza novamente, e agora mostra ambos os itens na sua lista
         self.wait_for_row_in_list_table('1: Estudar testes funcionais')
         self.wait_for_row_in_list_table('2: Estudar testes de unidade')
